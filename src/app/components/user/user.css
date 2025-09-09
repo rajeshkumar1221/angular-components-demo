@@ -1,0 +1,9 @@
+form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+}

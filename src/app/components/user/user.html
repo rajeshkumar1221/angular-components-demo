@@ -1,1 +1,12 @@
-<p>user works!</p>
+
+<h2>User Form</h2>
+<form (ngSubmit)="onSubmit()">
+  <label>Name: </label>
+  <input [(ngModel)]="user.name" name="name" placeholder="Enter name" />
+  <br /><br />
+  <label>Email: </label>
+  <input [(ngModel)]="user.email" name="email" placeholder="Enter email" />
+  <br /><br />
+  <button type="submit">Submit</button>
+</form>
+<p>User: {{ user.name }} | Email: {{ user.email }}</p>
